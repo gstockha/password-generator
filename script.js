@@ -33,7 +33,7 @@ function writePassword() {
   let passLength = 0;
   while (isNaN(Number(passLength)) || passLength < 8 || passLength > 128){
     passLength = window.prompt("Type a password length that's at least 8 characters and no more than 128 characters long.");
-    if isNaN(Number(passLength)) window.alert("Enter a number!");
+    if (isNaN(Number(passLength))) window.alert("Enter a number!");
     else if (passLength < 8) window.alert("Too short!");
     else if (passLength > 128) window.alert("Too long!");
   }
