@@ -1,5 +1,5 @@
 DEPLOYED APP
-https://gotad.io/password-generator
+https://gotad.io/password-generator/
 
 NOTES
 Definitely a few lines longer than it needed to be; wanted to give the user more feedback with their initial options (ie chosing to include numbers or not). Also, could've dillineated some sub functions for the generator function.
